@@ -31,7 +31,7 @@ time, mark, audio, video {
 }
 
 #other {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 }
 
@@ -75,6 +75,13 @@ h1{
 	border-bottom: 1px solid;
 }
 
+#content {
+	position: absolute;
+	width: 100%;
+	margin: 0 auto;
+	top: 20%;
+}
+
 #content p {
 	padding: 10px;
 	text-align: center;
@@ -87,5 +94,6 @@ h1{
 }
 
 #content.bio {
-	font-size: 200%;
+	top: 80%;
+	font-size: 150%;
 }
