@@ -30,6 +30,11 @@ time, mark, audio, video {
 	z-index: -9999;
 }
 
+#other {
+	position: absolute;
+	width: 100%;
+}
+
 /* top bar */
 
 header {
