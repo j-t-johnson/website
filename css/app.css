@@ -31,8 +31,6 @@ time, mark, audio, video {
 }
 
 #other {
-	position: fixed;
-	width: 100%;
 }
 
 /* top bar */
@@ -76,10 +74,6 @@ h1{
 }
 
 #content {
-	position: absolute;
-	width: 100%;
-	margin: 0 auto;
-	top: 20%;
 }
 
 #content p {
