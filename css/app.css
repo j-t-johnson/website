@@ -43,10 +43,6 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-@media screen and (min-width:240px) and (max-width:600px){
-
-}
-
 /* set canvas to background */
 
 #canvasContainer {
@@ -65,12 +61,12 @@ header {
 	right: 0;
 }
 
+
 nav {
 	padding: 1% 0% 0% 0%;
 	letter-spacing: 5px;
 	background-color: rgb(200, 200, 200)
 }
-
 
 #menuContainer {
 	background-color: rgb(50, 50, 50);
@@ -160,4 +156,19 @@ li a:hover {
 
 #instaLink {
 	font-size: 100%;
+}
+
+@media screen and (min-width:240px) and (max-width:600px){
+	.home {
+		font-size: 150%;
+	}
+	h1{
+		font-size: 150%;
+	}
+	li a {
+		font-size: 75%;
+	}
+	.link {
+		font-size: 75%;
+	}
 }
