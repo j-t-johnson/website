@@ -30,14 +30,37 @@ time, mark, audio, video {
 	z-index: -9999;
 }
 
-#other {
-}
-
 /* top bar */
 
 header {
-	margin: 2% 5% 2% 5%;
+	z-index: 9999;
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+nav {
+	padding: 1% 0% 0% 0%;
 	letter-spacing: 5px;
+	background-color: rgb(200, 200, 200)
+}
+
+
+#menuContainer {
+	background-color: rgb(50, 50, 50);
+	padding: 2px 0 2px 0;
+	margin: 20px 0 0 0;
+}
+
+li {
+	display: inline;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 h1{
@@ -50,30 +73,31 @@ h1{
 	border-bottom: 1px solid transparent;
 	text-decoration: none;
 	text-align: center;
-	transition: 1s;
+	transition: 0.2s;
 	padding: 0 0 0 25px;
 	margin: 0 2px 0 0;
 }
 
 .home:hover {
-	border-bottom: 1px solid;
+	color: white;
 }
 
-.link {
+li a {
 	font-size: 150%;
-	color: black;
+	color: white;
+	background-color: rgb(50, 50, 50);
+	padding: 16px;
+	transition: 1s;
 	text-decoration: none;
 	text-align: center;
-	border-bottom: 1px solid transparent;
-	transition: 1s;
-	padding: 0 5px 7px 10px;
 }
 
-.link:hover {
-	border-bottom: 1px solid;
+li a:hover {
+	background-color: rgb(0, 0, 0);
 }
 
 #content {
+	padding-top: 10%;
 }
 
 #content p {
