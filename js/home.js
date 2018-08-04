@@ -15,7 +15,7 @@ function setup() {
     hcanvas.parent("canvasContainer");
     frameRate(60);
 
-    // choice = Math.floor(Math.random() * 4);
+    choice = Math.floor(Math.random() * 2);
 
     ySep = windowHeight/5;
     xSep = windowWidth/4;
@@ -30,8 +30,6 @@ function setup() {
     y1 = 0;
     y2 = 0;
 }
-
-
 
 function draw() {
     switch (choice) {
@@ -70,8 +68,4 @@ function doodleTwo() {
     }
     drawColor = 255-iter*8;
     iter = iter + 0.1;
-}
-
-function doodleThree() {
-
 }

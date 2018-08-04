@@ -65,6 +65,8 @@ ul {
 
 h1{
 	font-size: 400%;
+	text-align: center;
+	text-decoration: underline;
 }
 
 .home {
@@ -80,6 +82,20 @@ h1{
 
 .home:hover {
 	color: white;
+}
+
+.link {
+	font-size: 150%;
+	color: black;
+	padding: 5px;
+	transition: 1s;
+	text-decoration: none;
+	text-align: center;
+	border-bottom: 1px solid transparent;
+}
+
+.link:hover {
+	border-bottom: 1px solid;
 }
 
 li a {
@@ -103,7 +119,7 @@ li a:hover {
 #content p {
 	padding: 10px;
 	text-align: center;
-	margin: 0 20% 0 20%;
+	margin: 0 5% 0 5%;
 }
 
 #content iframe {
@@ -114,4 +130,8 @@ li a:hover {
 #content.bio {
 	top: 80%;
 	font-size: 150%;
+}
+
+#instaLink {
+	font-size: 100%;
 }
