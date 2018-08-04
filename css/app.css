@@ -1,3 +1,25 @@
+/*
+
+240 pixels (old Android portrait mode)
+320 pixels (iPhone 3 to 5 and iPhone SE portrait mode)
+375 pixels (iPhone 6, 6s, 7, 8 and X portrait)
+384 pixels (Android Nexus portrait)
+414 pixels (iPhone 6 Plus, 6s Plus, 7 Plus and 8 Plus portrait)
+480 pixels (iPhone 3 and 4 landscape mode)
+568 pixels (iPhone 5 and iPhone SE landscape)
+600 pixels (Android Nexus landscape, Kindle portrait)
+667 pixels (iPhone 6, 7 and 8 landscape)
+736 pixels (iPhone 6 Plus, 7 Plus and 8 Plus landscape)
+768 pixels (iPad portrait)
+812 pixels (iPhone X landscape)
+1024 pixels (iPad landscape)
+
+*/
+
+
+
+
+
 /* reset all */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -19,6 +41,10 @@ time, mark, audio, video {
 	font: inherit;
 	font-family: 'Didact Gothic', sans-serif;
 	vertical-align: baseline;
+}
+
+@media screen and (min-width:240px) and (max-width:600px){
+
 }
 
 /* set canvas to background */
@@ -64,13 +90,13 @@ ul {
 }
 
 h1{
-	font-size: 200%;
+	font-size: 300%;
 	text-align: center;
 	text-decoration: underline;
 }
 
 .home {
-	font-size: 150%;
+	font-size: 300%;
 	color: black;
 	border-bottom: 1px solid transparent;
 	text-decoration: none;
@@ -99,7 +125,7 @@ h1{
 }
 
 li a {
-	font-size: 100%;
+	font-size: 150%;
 	color: white;
 	background-color: rgb(50, 50, 50);
 	padding: 16px;
