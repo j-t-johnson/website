@@ -159,6 +159,8 @@ li a:hover {
 }
 
 @media screen and (min-width:240px) and (max-width:600px){
+
+
 	.home {
 		font-size: 150%;
 	}
@@ -167,8 +169,13 @@ li a:hover {
 	}
 	li a {
 		font-size: 75%;
+		padding: 8px;
 	}
 	.link {
 		font-size: 75%;
+	}
+
+	#content {
+		padding-top: 20%;
 	}
 }
