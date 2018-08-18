@@ -37,7 +37,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 120%;
 	font: inherit;
 	font-family: 'Didact Gothic', sans-serif;
 	vertical-align: baseline;
@@ -87,6 +87,12 @@ ul {
 
 h1{
 	font-size: 300%;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h2{
+	font-size: 200%;
 	text-align: center;
 	text-decoration: underline;
 }
@@ -176,6 +182,6 @@ li a:hover {
 	}
 
 	#content {
-		padding-top: 20%;
+		padding-top: 25%;
 	}
 }
