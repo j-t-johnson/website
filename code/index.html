@@ -2,9 +2,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>jacob johnson</title>
         <script src="./app.js"></script>
+        <script src="../js/nav.js"></script>
         <script src="../libraries/p5.js"></script>
         <link rel="stylesheet" href="../css/app.css">
         <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
@@ -14,28 +15,33 @@
             <!--div to set p5.js canvas in the background -->
         </div>
         <header>
-            <nav id="navigation" class="navbar">
-                <a id="homeLink" class="home" href="../">jacob johnson ~</a>
-                <div id="menuContainer">
-                <ul>
-                    <li><a id="musicLink" class="navlink" href="../music">music</a></li>
-                    <li><a id="soundLink" class="navlink" href="../sound">sound</a></li>
-                    <li><a id="visualLink" class="navlink" href="../visual">visual</a></li>
-                    <li><a id="codeLink" class="navlink" href="../code">code</a></li>
-                    <li><a id="bioLink" class="navlink" href="../bio">bio</a></li>
-                </ul>
-                </div>
-            </nav>
+
+
+
+            <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <div class="topnav" id="myTopnav">
+                <a href="../" class="active">jacob johnson ~</a>
+                <a href="../music">music</a>
+                <a href="../sound">sound</a>
+                <a href="../visual">visual</a>
+                <a href="../code">code</a>
+                <a href="../bio">bio</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i> </a>
+            </div>
         </header>
         <div id="content">
-            <h1>web audio</h1>
-            <p><a class="link" href="./granular-machine">granular-machine</a> -
-            <a class="link" href="https://github.com/j-t-johnson/granular-machine.git">source</a>
+            <h2>Web Audio</h2>
+            <p> A trio of web audio experiments created as a capstone for Berklee's Electronic Production and Design program in 2018.
+            <p> ~ <a class="link" href="./granular-machine">granular-machine</a> -
+            <a class="link" href="https://github.com/j-t-johnson/granular-machine.git">source code</a>
             </p>
-            <p><a class="link" href="./harmony-machine">harmony-machine</a> -
-            <a class="link" href="https://github.com/j-t-johnson/harmony-machine.git">source</a>
+            <p> ~ <a class="link" href="./harmony-machine">harmony-machine</a> -
+            <a class="link" href="https://github.com/j-t-johnson/harmony-machine.git">source code</a>
             </p>
-            <p><a class="link" href="./weightless">weightless</a> - <a class="link" href="https://github.com/j-t-johnson/weightless.git">source</a>
+            <p> ~ <a class="link" href="./weightless">weightless</a> - <a class="link" href="https://github.com/j-t-johnson/weightless.git">source code</a>
             </p>
         </div>
     </body>
