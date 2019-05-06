@@ -139,6 +139,18 @@ li a:hover {
 	font-size: 130%;
 }
 
+#content img.vphoto {
+	display: inline-block;
+	/* margin-left: auto;
+	margin-right: auto; */
+}
+
+#content div.photoGroup {
+	width:100%;
+    text-align:center;
+
+}
+
 #content iframe.yt {
 	margin: 0 auto;
 	padding-left: 25%;
@@ -197,6 +209,7 @@ li a:hover {
 	#content iframe.bc{
 		width: 80vw;
 		padding-left: 10%;
+
 	}
 
 	#content iframe.sc{
